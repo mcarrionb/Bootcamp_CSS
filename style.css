@@ -44,32 +44,32 @@ p{
     
 }
 
-/* 9. Atributo href y que acaben en .com */
+/* 9. Selecciona todos los elementos con atributo href y que acaben en .com */
 [href$=".com"]{
     
 }
 
-/* 10. Atributo class con un valor title, title-1, etc */
+/* 10. Selecciona todos los elementos con atributo class con un valor title, title-1, etc */
 [class|="title"]{
     
 }
 
-/* 11. Atributo href que contenga 127 */
+/* 11. Selecciona todos los elementos con atributo href que contenga 127 */
 [href*="127"]{
     
 }
 
-/* 12. Atributo href y cuyo valor empiece por http */
+/* 12. Selecciona todos los elementos con atributo href y cuyo valor empiece por http */
 [href^="http"]{
     
 }
 
-/* 13. Elementos que sean A, P o H1 */
+/* 13. Selecciona todos los elementos que sean A, P o H1 */
 a, p, h1{
     
 }
 
-/* 14. Elementos que pertenezcan a main y que sean P */
+/* 14. Selecciona todos los elementos que pertenezcan a main y que sean P */
 main > p{
     
 }
