@@ -9,12 +9,10 @@ html{
 .lorem-ipsum-p{
     columns: 3;
     column-gap: 40px;
-    column-rule-width: 2px;
-    column-rule-style: solid;
-    column-rule-color: red;
+    column-rule: solid 2px red;
 }
 
-.lorem-ipsum-p:hover{
+.lorem-ipsum-p::selection{
     background-color:chocolate;
     color: white;
 }
