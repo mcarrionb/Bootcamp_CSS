@@ -1,0 +1,7 @@
+.container{
+    background-color: chartreuse;
+    width: 350px;
+    height: 150px;
+    padding: 8px;
+    overflow: auto;
+}
