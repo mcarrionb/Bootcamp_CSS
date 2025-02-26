@@ -1,0 +1,11 @@
+.container{
+    margin: 12px;
+    background-color: red;
+    outline: 8px dotted #9BCC34;
+    width: 100px;
+    height: 100px;
+}
+
+.container:hover{
+    outline: 5px dotted black;
+}
