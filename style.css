@@ -1,0 +1,20 @@
+html{
+    background-color: bisque;
+}
+.container{
+    margin: 20px auto;
+    width: 200px;
+    border: 1px solid black;
+    border-radius: 2px;
+    padding: 4px 12px;
+    background-color: aliceblue;
+}
+.container1{
+    text-align: left;
+}
+.container2{
+    text-align: center;
+}
+.container3{
+    text-align: right;
+}
