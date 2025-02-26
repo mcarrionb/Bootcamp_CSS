@@ -1,14 +1,5 @@
 html{
-    background-color: bisque;
-}
-
-caption{
-    font-size: 18px;
-    font-weight: bold;
-}
-
-caption > span{
-    background-color: aqua;
+    background-color: #E5E6FB;
 }
 
 table {
@@ -19,6 +10,16 @@ table {
     padding-top: 8px;
     width: 500px;
     text-align: center;
+    background-color: #FEE4C3;
+}
+
+caption{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+caption > span{
+    background-color: #00BFFF;
 }
 
 tbody > tr > td {
@@ -28,7 +29,7 @@ tbody > tr > td {
 }
 
 tfoot{
-    background-color:cyan;
+    background-color:#00BFFF;
     font-weight: bold;
 }
 
