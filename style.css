@@ -1,0 +1,39 @@
+.main-container{
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+}
+
+.mini-container{
+    background-color: #ADFE38;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    border-radius: 50%;
+    border: 1.5px solid black;
+}
+
+.container-1{
+    top:0;
+    left:0;
+    position: absolute;
+}
+
+.container-2{
+    top: 0px;
+    left: 200px;
+    position: absolute;
+}
+
+.container-3{
+    top: 200px;
+    left: 0px;
+    position: absolute;
+}
+
+.container-4{
+    top: 200px;
+    left: 200px;
+    position: absolute;
+}
