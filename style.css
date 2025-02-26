@@ -1,0 +1,35 @@
+html{
+    background-color: bisque;
+}
+
+caption{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+caption > span{
+    background-color: aqua;
+}
+
+table {
+    border: 5px solid;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    margin: 20px;
+    padding-top: 8px;
+    width: 500px;
+    text-align: center;
+}
+
+tbody > tr > td {
+    border-bottom: 2px solid black;
+    border-left: 1px solid black;
+    padding: 4px;
+}
+
+tfoot{
+    background-color:cyan;
+    font-weight: bold;
+}
+
+
