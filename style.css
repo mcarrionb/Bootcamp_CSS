@@ -1,0 +1,77 @@
+
+html{
+    background-color: #b9da8f;
+}
+.container{
+    display: inline-block;
+    width: 28vw;
+    padding: 10px;
+}
+
+.container-1,
+.container-2{
+    height: 100%;
+}
+
+.container-3{
+    background-color: white;
+}
+
+.circle-container-1{
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+}
+.circle-container-2{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+}
+.circle-container-3{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+/* Colores circulos */
+.red-circle{
+    background-color: red;
+}
+.green-circle{
+    background-color: #01ff02;
+}
+.blue-circle{
+    background-color: blue;
+}
+.aqua-circle{
+    background-color: #00feff;
+}
+.violet-circle{
+    background-color: #ff00fe;
+}
+.yellow-circle{
+    background-color: #fdf001;
+}
+
+.primary-colors-row-1,
+.secondary-colors-row-1,
+.secondary-colors-row-2,
+.secondary-colors-row-3{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    align-items: center;
+}
+
+.primary-colors-div > .primary-colors-row-1 > div,
+.secondary-colors-div > .secondary-colors-row-1 > div,
+.secondary-colors-div > .secondary-colors-row-2 > div,
+.secondary-colors-div > .secondary-colors-row-3 > div{
+    display: inline-block;
+}
+
+.circle-container-1.green-circle{
+    float: center;
+}
