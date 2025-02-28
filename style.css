@@ -1,0 +1,27 @@
+.orange-container{
+    background-color: #fea432;
+    height: 50px;
+}
+.yellow-container{
+    background-color: #dbec00;
+    height: 150px;
+}
+.blue-container{
+    background-color: #4a89d0;
+    height: 60px;
+}
+.grey-container{
+    background-color: #e3e3e3;
+    height: 60px;
+}
+.container{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+@media(width > 1023px){
+    .orange-container{
+        width: 50%;
+        display: inline-block;
+    }
+}
