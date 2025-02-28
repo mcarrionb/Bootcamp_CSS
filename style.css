@@ -1,0 +1,15 @@
+.text-container{
+    width: 300px;
+    text-align: justify;
+    float: left;
+    width: 45vw;
+}
+
+.img-container{
+    float: right;
+    width: 55vw;
+}
+
+img{
+    width: 100%;
+}
