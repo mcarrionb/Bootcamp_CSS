@@ -1,0 +1,57 @@
+body{
+    font-family: "Lexend Deca", sans-serif;
+}
+.child-container{
+    padding: 32px;
+    text-align: justify;
+}
+.child-container h2{
+    font-family: "Big Shoulders Display", sans-serif;
+    color: hsl(0, 0%, 95%);
+    text-transform: uppercase;
+}
+.child-container p{
+    font-size: 15px;
+    color: hsla(0, 0%, 100%, 0.75);
+    margin-bottom: 24px;
+}
+.sedans-container{
+    background-color: hsl(31, 77%, 52%);
+}
+.suvs-container{
+    background-color: hsl(184, 100%, 22%);
+}
+.luxury-container{
+    background-color: hsl(179, 100%, 13%)
+}
+button{
+    background-color: hsl(0, 0%, 95%);
+    border: 1px solid hsl(0, 0%, 95%);
+    border-radius: 50px;
+    padding: 12px 24px;
+    color: transpaent;
+}
+.sedans-btn{
+    color: hsl(31, 77%, 52%);
+}
+.sedans-btn{
+    color: hsl(31, 77%, 52%);
+}
+.sedans-btn{
+    color: hsl(31, 77%, 52%);
+}
+
+@media (width < 376px){
+    .main-container{
+        display: flex;
+        flex-direction: column;
+        margin: 72px 16px;
+    }
+}
+
+@media (width < 375px){
+    .main-container{
+        display: flex;
+        flex-direction: column;
+    }
+}
