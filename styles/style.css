@@ -1,0 +1,119 @@
+body{
+    margin: 0;
+    font-family: "Plus Jakarta Sans", serif;
+    color: white;
+}
+/* Contenedor padre */
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(14, 1fr);  
+}
+
+/* Contenedores hijos */
+.div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header{
+    background-color: rgb(15 22 41);
+}
+.menu{
+    background-color: rgb(240 61 80);
+}
+.hero{
+    background-color: rgb(79 134 199);
+}
+.main{
+    background-color: rgb(36 52 75);
+}
+.banner{
+    background-color: rgb(255 208 106);
+}
+.extra{
+    background-color: rgb(78 188 151);
+}
+.image{
+    background-color: rgb(193 227 229);
+}
+
+/* Media queries */
+/* Móvil */
+@media (width < 425px){
+    .header{
+        grid-column-start: 1;
+        grid-column-end: span 4;
+    }
+    .menu{
+        grid-column-start: 1;
+        grid-column-end: span 4;
+    }
+    .hero{
+        grid-area: 3 / 1 / span 3 / span 4;
+    }
+    .main{
+        grid-area: 5 / 1 / span 3 / span 4;
+    }
+    .banner{
+        grid-area: 8 / 1 / span 2 / span 4;
+    }
+    .extra{
+        grid-area: 10 / 1 / span 2 / span 4;
+    }
+    .image{
+        grid-area: 12 / 1 / span 2 / span 4;
+    }
+}
+
+/* Tablet */
+@media ( 426px < width < 728px){
+    .header{
+        grid-column: 1 / span 4;
+    }
+    .hero{
+        grid-area: 2 / 1 / span 5 / span 4;
+    }
+    .menu{
+        grid-area: 7 / 1 / span 12 / span 1;
+    }
+    .main{
+        grid-area: 7 / 2 / span 4 / span 3;
+    }
+    .banner{
+        grid-area: 11 / 2 / span 2 / span 3;
+    }
+    .extra{
+        grid-area: 13 / 2 / span 2 / span 2;
+    }
+    .image{
+        grid-area: 13 / 4 / span 2 / span 1;
+    }
+}
+
+/* Desktop */
+@media (729px < width){
+    .header{
+        grid-column: 1 / span 1;
+    }
+    .menu{
+        grid-column: 2 / span 3;
+    }
+    .hero{
+        grid-area: 2 / 1 / span 7 / span 4;
+    }
+    .main{
+        grid-area: 9 / 1 / span 4 / span 2;
+    }
+    .banner{
+        grid-area: 13 / 1 / span 2 / span 4;
+    }
+    .extra{
+        grid-area: 11 / 4 / span 2 / span 2;
+    }
+    .image{
+        grid-area: 9 / 4 / span 2 / span 1;
+    }
+}
