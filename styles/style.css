@@ -1,9 +1,11 @@
 body{
     font-family: "Lexend Deca", sans-serif;
+    margin: 0;
 }
 .child-container{
-    padding: 32px;
+    padding: 52px 48px;
     text-align: justify;
+    line-height: 1.7rem;
 }
 .child-container h2{
     font-family: "Big Shoulders Display", sans-serif;
@@ -29,29 +31,88 @@ button{
     border: 1px solid hsl(0, 0%, 95%);
     border-radius: 50px;
     padding: 12px 24px;
-    color: transpaent;
+    font-family: "Lexend Deca";
 }
 .sedans-btn{
     color: hsl(31, 77%, 52%);
 }
-.sedans-btn{
-    color: hsl(31, 77%, 52%);
+.suvs-btn{
+    color: hsl(184, 100%, 22%);
 }
-.sedans-btn{
-    color: hsl(31, 77%, 52%);
+.luxury-btn{
+    color: hsl(179, 100%, 13%);
 }
 
-@media (width < 376px){
+/* Desktop */
+@media (width > 1044px){
+    body{
+        height: 100vh;
+    }
     .main-container{
         display: flex;
-        flex-direction: column;
-        margin: 72px 16px;
+        flex-direction: row;
+        padding: 12px;
+        height: 95%;
+    }
+    .child-container h2{
+        font-size: 2.5rem;
+    }
+    .sedans-container{
+        border-top-left-radius: 12px;
+        border-bottom-left-radius: 12px;
+    }
+    .luxury-container{
+        border-top-right-radius: 12px;
+        border-bottom-right-radius: 12px;
     }
 }
 
-@media (width < 375px){
+/* Big tablet - Small desktop */
+@media (769px < width < 1044px){
+    body{
+        height: 100vh;
+    }
+    .main-container{
+        display: flex;
+        flex-direction: row;
+        padding: 12px;
+        height: 95%;
+    }
+    .child-container h2{
+        font-size: 2.5rem;
+    }
+    .sedans-container{
+        border-top-left-radius: 12px;
+        border-bottom-left-radius: 12px;
+    }
+    .luxury-container{
+        border-top-right-radius: 12px;
+        border-bottom-right-radius: 12px;
+    }
+}
+
+/* Small tablet */
+@media (width < 769px){
     .main-container{
         display: flex;
         flex-direction: column;
+        margin: 32px 18px;
+    }
+    .sedans-container{
+        border-top-right-radius: 15px;
+        border-top-left-radius: 15px;
+    }
+    .luxury-container{
+        border-bottom-right-radius: 15px;
+        border-bottom-left-radius: 15px;
+    }
+}
+
+/* Mobile */
+@media (width < 440px){
+    .main-container{
+        display: flex;
+        flex-direction: column;
+        margin: 64px 18px;
     }
 }
