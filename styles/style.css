@@ -1,10 +1,12 @@
 body{
     font-family: "arial", "sans-serif";
-    font-size: 12px;
     margin: 0;
 }
 header{
-    padding: 8px 8px 16px;
+    font-size: 12px;
+}
+main{
+    font-size: 14px;
 }
 .flex-column-items{
     display: flex;
@@ -12,6 +14,11 @@ header{
 }
 .border-left-items{
     border-left: 1px solid #DDD;
+    padding-left: 8px;
+}
+.grey-border-bottom{
+    border-bottom: 1px solid #CCCCCC;
+    padding-bottom: 16px;
 }
 /* Navbar */
 .nav-personal-details{
@@ -19,6 +26,7 @@ header{
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
+    padding: 2px 16px;
 }
 .logo-marcar{
     width: 120px;
@@ -26,6 +34,7 @@ header{
 .personal-links{
     margin-left: 30px;
     font-size: 12px;
+    align-self: end;
 }
 .resume-link{
     text-decoration: none;
@@ -47,8 +56,145 @@ header{
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    padding: 2px 16px;
 }
 .shop-by-spans{
     display: flex;
-    flex-direction: column
+    flex-direction: column;
+}
+.ul-abilities{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 2px 16px;
+    margin: 0;
+}
+
+/* Main general */
+.title-sections{
+    color: #E47911;
+    font-size: 18px;
+}
+.side-padding{
+    padding-left: 16px;
+}
+.without-style{
+    text-decoration: none;
+}
+/* Section 2 - About me */
+.about-me{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.main-images{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+.about-me-mini-img-container{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.about-me-mini-img-container img{
+    width: 50px;
+}
+.profile-img{
+    width: 350px;
+}
+.product-data{
+    padding: 0px 12px;
+    
+}
+.product-name p{
+    font-size: 19px;
+    margin-bottom: 0;
+}
+.product-availability p{
+    color: #990000;
+    font-weight: 600;
+}
+.product-name span{
+    font-size: 12px;
+}
+.product-add-to-list{
+    width: 220px;
+}
+.header-product-add-to-list{
+    border-top: 1px solid #6DAEE1;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    text-align: center;
+    background-color: #C0DBF2; 
+    line-height: 3rem;
+    padding: 8px 16px;
+}
+.button-add-to-cart{
+    border: 1.5px solid #1C408B;
+    background-image: linear-gradient(#F5F6E0, #DEAA2E);
+    border-radius: 15px 5px 5px 15px;
+    width: 100%;
+    color:#242475;
+    font-weight: 600;
+    padding: 4px;
+}
+.material-symbols-outlined{
+    font-size: 16px;
+}
+.body-product-add-to-list{
+    padding: 8px 16px;
+    background-color: #EBF3FE;
+    border-bottom: 1px solid #6DAEE1;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+.button-add-to-list{
+    border: 1px solid grey;
+    color:#242475;
+    background-image: linear-gradient(#F5F6E0, #DEAA2E);
+    border-radius: 2px;
+    font-size: 12px;
+    width: 100%;
+    margin-bottom: 8px;
+    padding: 4px 0;
+}
+.button-to-linkedin{
+    width: 100%;
+    padding: 4px 0;
+}
+.button-to-linkedin img{
+    width: 60px;
+}
+
+
+/* Section 3 - Frequently bought together */
+.frequently-bought-together-section{
+    border-bottom: 1px solid #CCCCCC;
+    padding-top: 8px;
+}
+
+.frequently-bought-together-img-div{
+    display: flex;
+    align-items:center;
+    gap:4px;
+}
+.frequently-bought-together-section img{
+    width: 90px;
+}
+.frequently-bought-together-section span{
+    color: #999999;
+    font-size: 24px;
+}
+
+/* Section 2 - Product details */
+.product-details-subtitle{
+    font-weight: 600;
+}
+
+/* Media queries */
+@media(width < 700px){
+    .about-me{
+        flex-direction: column;
+    }
 }

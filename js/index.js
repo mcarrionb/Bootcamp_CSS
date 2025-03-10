@@ -1,1 +1,1 @@
-document.getElementById("amazon-department-selector");
+console.log("hello world!")

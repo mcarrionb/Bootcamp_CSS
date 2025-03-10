@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="img/marcar-miniatura.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=shopping_cart" />
     <title>An Amaz-ing Resume - Mar Carrion Borràs</title>
     <link rel="stylesheet" href="styles/style.css">
 </head>
@@ -24,32 +25,35 @@
                 <div class="nav-shop-row-1">
                     <div class="shop-by-spans">
                         <span>Shop by</span>
-                        <span>Department</span>
+                        <span><strong>Department</strong></span>
                     </div>
-                    <label for="">Search</label>
-                    <select name="" id="amazon-department-selector">
-                        <option value="">Job Candidates</option>
-                    </select>
-                    <div class="flex-column-items border-left-items">
+                    <label for=""><strong>Search</strong></label>
+                    <div>
+                        <select name="" id="amazon-department-selector">
+                            <option value="">Job Candidates</option>
+                        </select>
+                        <input type="text">
+                    </div>
+                    <div class=" border-left-items">
                         Hello, <span>Company</span>
-                        <span>Your Account</span>
+                        <div><strong>Your Account</strong></div>
                     </div>
                     <div class="flex-column-items border-left-items">
                         <span>Hire</span>
-                        <span>Her</span>
+                        <span><strong>Her</strong></span>
                     </div>
                     <div class="flex-column-items border-left-items">
                         <span>Hire</span>
-                        <span>Cart</span>
+                        <span><strong>Cart</strong></span>
                     </div>
                     <div class="flex-column-items border-left-items">
                         <span>Wish</span>
-                        <span>List</span>
+                        <span><strong>List</strong></span>
                     </div>
                 </div>
                 
-                <ul style="list-style: none; display: inline">
-                    <li>Web Development</li>
+                <ul class="ul-abilities">
+                    <li><strong>Web Development</strong></li>
                     <li>Git</li>
                     <li>Python</li>
                     <li>API Rest</li>
@@ -60,6 +64,134 @@
             
         </div>
     </header>
+    <main style="padding: 8px;">
+        <section class="about-me grey-border-bottom">
+            <div class="main-images">
+                <div class="about-me-mini-img-container">
+                    <img src="img/profile-img.png" alt="">
+                    <img src="img/fire-stick-amazon.png" alt="">
+                    <img src="img/book-amazon.png" alt="">
+                </div>
+                <img class="profile-img" src="img/profile-img.png" alt="">
+            </div>
+            
+            <div style="display: flex; flex-direction: row;">
+                <div class="product-data">
+                    <div class="product-name grey-border-bottom">
+                        <p>Mar Carrion Borràs, Web Developer</p>
+                        <span>by <a href="">Mar Carrion Borràs</a></span>
+                        <a href="#customerReviews">reviews</a>
+                    </div>
+                    
+                    <div class="product-availability">
+                        <p>Currently unavailable.</p>
+                        <span>We don't know when or if this item will be back in stock.</span>
+                    </div>
+                
+                    <ul>
+                        <li>2+ years working on web development</li>
+                    </ul>
+                </div>
+                <div class="links-product">
+                    <div class="product-add-to-list">
+                        <div class="header-product-add-to-list">
+                            <label for="">Quantity</label>
+                            <select>
+                                <option value="1">1</option>
+                            </select>
+                            <button class="button-add-to-cart">
+                                <span class="material-symbols-outlined">
+                                    shopping_cart
+                                </span>
+                                Add to Cart
+                            </button>
+                        </div>
+                        <div class="body-product-add-to-list">
+                            <button class="button-add-to-list">Add to Wish List</button>
+                            <button class="button-add-to-list">Add to Wedding Registry</button>
+                            <button class="button-to-linkedin">my <span><img src="img/linkedin-logo.png" alt=""></span> profile </button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            
+        </section>
+    
+        <section class="frequently-bought-together-section grey-border-bottom">
+            <h2 class="title-sections">Frequently Bought Together</h2>
+            <div class="side-padding">
+                <div class="frequently-bought-together-img-div">
+                    <a class="without-style" href="">
+                        <img src="img/profile-img.png" alt="">
+                    </a>
+                    <span>+</span>
+                    <a class="without-style" href="https://www.amazon.es/Chocolate-Cookie-Murder-Swensen-Mysteries-ebook/dp/B00NLHJNAC/ref=sr_1_1?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=2JPOKAWS59Z2B&dib=eyJ2IjoiMSJ9.S4O55STLDpUFqj0HrWCC2b-VgbI8W2gaCxs38zlt62X-8HB_ctkqHy3_ArsuigQ3IzB8UI0Xqx4LlQ8v92hi57JelluAHID4i2LrW2Xtc1pFORakcJE-wZGvPGrW6Xg91GbqgNVD9SC9mEkjg6YyyMVI2f3GFlhLiB4AwLo5Grk.xlxWIIC2jvhhFzl_dy_Pc01m2kW0Vt5oR_UMhyo6ge0&dib_tag=se&keywords=chocolate+chip+cookie+murder&qid=1741621573&sprefix=chocolate+chip+cookie+murde%2Caps%2C118&sr=8-1">
+                        <img src="img/book-amazon.png" alt="">
+                    </a>
+                    <span>+</span>
+                    <a class="without-style" href="https://www.amazon.es/fire-tv-stick-4k/dp/B0CJKTWTVT/ref=sr_1_2?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=387R6PZG9TS2G&dib=eyJ2IjoiMSJ9.Rs1d8jGO9KncMDGIy6jnaB7Qd8gcNQ-VZLqxGTUvCrD37bgFofnPUn-7BkA-3n9594_bfyTxshSF6JvFdlR1lzcukyavFoT0KbkCbEEEFltmkOgGFua7Rp0XZzrUnrYl1KwsYOTnGTnmoKVADY56HG82jim-KbYjtTOzPOMU8krhV98dRq1gJ77Uce-B2uWffxFRw4QvqJWUl0pzLC1XRm1pgK-evxG-XGjiskfDuMOpiGbZ_693RFaiSA11dFqmHHpQEZZZj7Kd63cihj-DnQ8OVCoQe8C0iyPyxGDkTZ3WadmLH1ANp7Xyno7miMOD0Sp8SMSwHiWjPHiz_c_7X11qMySwikllXfwtwgpUt7ctm3mBVyxoLFYkYcFpHj65gxjfIkAL0_RdE5mMoz6XZEW7qAJxEU8nJA8QZXYJJleHzMNhfn9NFfnvZ-ks8wCs.zAYdEBQBrtMXl8LwQ2vn3Nj4J4seShpriDnGYNManPI&dib_tag=se&keywords=fire+stick&qid=1741621702&sprefix=fire+stick%2Caps%2C125&sr=8-2">
+                        <img src="img/fire-stick-amazon.png" alt="">
+                    </a>
+                </div>
+                <div class="checkbox-items">
+                    <input type="checkbox" checked>
+                    <label for="">This item: Mar Carrion, Web Developer</label>
+                </div>
+                <div class="checkbox-items">
+                    <input type="checkbox" checked>
+                    <label for="">Chocolate Chip Cookie Murder (Hannah Swensen Mysteries, Book 1)</label>
+                </div>
+                <div class="checkbox-items">
+                    <input type="checkbox" checked>
+                    <label for="">Amazon Fire TV Stick 4K (Última generación) </label>
+                </div>
+            </div>
+            
+            
+        </section>
+    
+        <section class="product-details grey-border-bottom">
+            <h2 class="title-sections">Product Details</h2>
+            <div class="side-padding">
+                <p><span class="product-details-subtitle">Product Dimensions:</span> Height: 160cm</p>
+                <p><span class="product-details-subtitle">Shipping:</span> This item is available for shipping anywhere in the world!</p>
+                <p><span class="product-details-subtitle">Languages:</span> Catalan, Spanish, English</p>
+                <div>
+                    <p class="product-details-subtitle">Education:</p>
+                    <div class="side-padding">
+                        <p><strong>Minor in data science</strong> at Open University of Catalonia</p>
+
+                        <p><strong>Bachelor in computer engineering</strong> at Open University of Catalonia</p>
+
+                        <p><strong>Web Application Development</strong> at Ilerna Online</p>
+
+                        <p><strong>Pastry and bakery</strong> at Culinary and hospitality school, Cambrils, Spain</p>
+                    </div>
+                </div>
+                <div style="margin-bottom: 8px">
+                    <p class="product-details-subtitle">Main Skills Rank</p>
+                    <div style="padding-left: 16px;">
+                        <strong>Web Development</strong> > HTML5, CSS, JavaScript, PHP, jQuery, SQL, Python
+                    </div>
+                </div>
+                <span>Did we miss any relevant features for this product? <a href=""><strong>Check on LinkedIn what we missed.</strong></a></span>
+            </div>
+            
+        </section>
+    
+        <section class="product-description-section grey-border-bottom">
+            <h2 class="title-sections">Product Description</h2>
+            <p class="side-padding" style="text-align: justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum tempore, magni eum veniam facere doloremque corporis deserunt laudantium voluptatum deleniti nulla ex facilis nam ipsa maxime fuga beatae molestias molestiae.
+            Cupiditate culpa mollitia repellat excepturi libero aspernatur voluptatibus repudiandae, eligendi iusto, temporibus voluptates pariatur quod. Temporibus harum hic saepe quis suscipit qui ea, similique assumenda deserunt enim fugiat, obcaecati vero.
+            Odio excepturi nobis vitae atque ad. Aliquam, dolore. Enim eaque atque harum pariatur eligendi necessitatibus repellendus ea nulla voluptatem, perferendis quod amet consequuntur. Molestiae recusandae alias reiciendis illum laudantium fugit!</p>
+        </section>
+    
+        <section class="professional-experience">
+            <h2 class="title-sections">Professional Experience</h2>
+            <div id="customerReviews"></div>
+        </section>
+    </main>
     
 </body>
 <script src="js/index.js"></script>
