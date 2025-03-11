@@ -5,19 +5,36 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>CSS Lab | Responsive Cloning | Product Hunt</title>
-  <link rel="stylesheet" href="styles.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&display=swap" />
+  <link rel="stylesheet" href="styles.css">
+
 </head>
 <body>
-    <!-- <header>
-        <div style="padding: 5px;text-align: center;width: 20px;height:20px;background-color: orange; border-radius: 50%">
-            M
+    <header>
+        <div class="search-bar-container">
+            <input type="text" class="search-bar" placeholder="Discover your next favorite thing" id="search-bar">
+            <span class="search-icon material-symbols-outlined">
+                search
+            </span>
         </div>
-        <input type="text" placeholder="Discover...">
-        <div class="app-menu">
-            
-        </div>
-    </header> -->
+    </header>
     <main>
+        <div class="menu-container">
+            <div class="menu" id="menu">
+                <a href="#" class="menu-item">Home</a>
+                <a href="#" class="menu-item">Tech</a>
+                <a href="#" class="menu-item">Games</a>
+            </div>
+            <div class="scroll-icon" id="scroll-icon">
+                <span class="material-symbols-outlined">
+                    chevron_left
+                </span>
+                <span class="material-symbols-outlined">
+                    chevron_right
+                </span>
+
+            </div>
+        </div>
         <div class="welcome-message">
             <p><strong>Welcome to Product Hunt</strong> Get the best new products in your inbox, daily.</p>
             <input type="email" placeholder="Your email">
