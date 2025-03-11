@@ -23,20 +23,20 @@
             </div>
             <div class="nav-shop">
                 <div class="nav-shop-row-1">
-                    <div class="shop-by-spans">
+                    <div class="shop-by-spans" style="width: min-content;">
                         <span>Shop by</span>
                         <span><strong>Department</strong></span>
                     </div>
                     <label for=""><strong>Search</strong></label>
-                    <div>
-                        <select name="" id="amazon-department-selector">
-                            <option value="">Job Candidates</option>
+                    <div class="search-bar">
+                        <select id="job-selector">
                         </select>
-                        <input type="text">
+                        <input type="text" placeholder="Search">
+                        <button>Go</button>
                     </div>
-                    <div class=" border-left-items">
-                        Hello, <span>Company</span>
-                        <div><strong>Your Account</strong></div>
+                    <div class=" border-left-items" >
+                        <div style="width: max-content">Hello, <span>Company</span></div>
+                        <div style="width: max-content"><strong>Your Account</strong></div>
                     </div>
                     <div class="flex-column-items border-left-items">
                         <span>Hire</span>
@@ -75,7 +75,7 @@
                 <img class="profile-img" src="img/profile-img.png" alt="">
             </div>
             
-            <div style="display: flex; flex-direction: row;">
+            <div style="display: flex; flex-direction: row;width:100%">
                 <div class="product-data">
                     <div class="product-name grey-border-bottom">
                         <p>Mar Carrion Borràs, Web Developer</p>
