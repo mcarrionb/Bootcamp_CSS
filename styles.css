@@ -88,6 +88,15 @@ header{
   padding: 8px;
 }
 
+/* Popular this week */
+.title{
+  font-size: 1.1rem;
+  color: black;
+}
+.subtitle{
+  font-size: 0.9rem;
+  color: rgb(168, 168, 168);
+}
 
 /* LG (large - width > 1200px) */
 /* MD (medium - width > 992px) */
