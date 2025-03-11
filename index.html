@@ -12,20 +12,26 @@
 <body>
     <header>
         <div class="search-bar-container">
-            <input type="text" class="search-bar" placeholder="Discover your next favorite thing" id="search-bar">
+            <input type="text" class="search-bar" placeholder="Discover your next favorite thing..." id="search-bar">
             <span class="search-icon material-symbols-outlined">
                 search
             </span>
         </div>
-    </header>
-    <main>
+
         <div class="menu-container">
             <div class="menu" id="menu">
                 <a href="#" class="menu-item">Home</a>
                 <a href="#" class="menu-item">Tech</a>
                 <a href="#" class="menu-item">Games</a>
+                <a href="#" class="menu-item">Podcasts</a>
+                <a href="#" class="menu-item">Books</a>
+                <a href="#" class="menu-item">Bots</a>
+                <a href="#" class="menu-item">Developer Tools</a>
+                <a href="#" class="menu-item">iMessage Apps</a>
+                <a href="#" class="menu-item">iPhone</a>
+                <a href="#" class="menu-item">Photography Tools</a>
             </div>
-            <div class="scroll-icon" id="scroll-icon">
+            <!-- <div class="scroll-icon" id="scroll-icon">
                 <span class="material-symbols-outlined">
                     chevron_left
                 </span>
@@ -33,12 +39,27 @@
                     chevron_right
                 </span>
 
-            </div>
+            </div> -->
         </div>
-        <div class="welcome-message">
-            <p><strong>Welcome to Product Hunt</strong> Get the best new products in your inbox, daily.</p>
-            <input type="email" placeholder="Your email">
-            <button>SUBSCRIBE</button>
+    </header>
+    <main>
+        <div class="card welcome-message">
+            <span>👋🏼<strong>Welcome to Product Hunt</strong> Get the best new products in your inbox, daily.</span>
+            <div>
+                <input type="email" placeholder="Your email">
+                <button>SUBSCRIBE</button>
+            </div>
+            <span class="material-symbols-outlined">
+                close
+            </span>
+        </div>
+
+        <div class="card popular-this-week">
+            <h4>Popular this week</h4>
+        </div>
+
+        <div class="card today">
+            <h4>Today</h4>
         </div>
     </main>
 </body>
